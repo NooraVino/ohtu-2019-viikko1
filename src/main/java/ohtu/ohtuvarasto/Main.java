@@ -53,6 +53,6 @@ public class Main {
         System.out.println("mehua.otaVarastosta(-32.9)");
         saatiin = mehua.otaVarastosta(-32.9);
         System.out.println("saatiin " + saatiin);
-        
+        System.out.println("Mehuvarasto: " + mehua);
     }
 }
