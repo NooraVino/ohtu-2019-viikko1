@@ -13,6 +13,7 @@ apply plugin: 'java'
 apply plugin: 'application'
 
 apply plugin: 'jacoco'
+
 jacoco {
   toolVersion = "0.8.2"  
 }
@@ -44,7 +45,7 @@ jar {
     }
 }
 
-//tehtava 12 codecov
+
 jacocoTestReport {
     reports {
         xml.enabled true
