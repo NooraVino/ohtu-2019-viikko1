@@ -4,7 +4,10 @@
 
 
 
+
 [![codecov](https://codecov.io/gh/NooraVino/ohtu-2019-viikko1/branch/master/graph/badge.svg)](https://codecov.io/gh/NooraVino/ohtu-2019-viikko1)
+
+
 
 
 [ohtu tehtavat](https://github.com/NooraVino/ohtu-tehtavat)
