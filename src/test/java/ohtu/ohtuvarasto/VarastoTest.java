@@ -29,6 +29,17 @@ public class VarastoTest {
     public void uudellaVarastollaOikeaTilavuus() {
         assertEquals(10, varasto.getTilavuus(), vertailuTarkkuus);
     }
+    @Test
+    public void uudellaVarastollaTilavuusPositiivinen() {
+        varasto = new Varasto(-2);
+        assertEquals(0, varasto.getTilavuus(), vertailuTarkkuus);
+    }
+    
+    @Test
+    public void alkuSaldoEiYlitaTilavuutta() {
+        varasto = new Varasto(8, 10);
+        assertEquals(8, varasto.getSaldo(), vertailuTarkkuus);
+    }
 
     @Test
     public void lisaysLisaaSaldoa() {
