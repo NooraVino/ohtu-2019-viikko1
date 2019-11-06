@@ -11,7 +11,7 @@
     <!-- metodin maximipituus 15 -->
      <module name="MethodLength">
             <property name="tokens" value="METHOD_DEF"/>
-            <property name="max" value="15"/>
+            <property name="max" value="3"/>
             <property name="countEmpty" value="false"/>
         </module>
 
